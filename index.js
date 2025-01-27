@@ -1,7 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
 mongoose.connect("mongodb://localhost:27017/free-code");
-const Product = require('./models/productModel');
 const productRoute = require('./routes/productRoute');
 const app = express();
 
